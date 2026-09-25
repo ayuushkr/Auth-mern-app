@@ -31,7 +31,7 @@ function Login() {
         }
 
         try{
-            const url = "http://localhost:8080/auth/Login";
+            const url = "https://auth-mern-app-api-pearl.vercel.app/";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
