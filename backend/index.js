@@ -17,6 +17,4 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use('/auth', AuthRouter)
 
-app.listen(PORT,() =>{
-    console.log(`server is running on ${PORT}`);
 })
